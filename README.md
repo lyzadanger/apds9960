@@ -5,7 +5,11 @@ Designed for Tessel 2, but adaptible to other 3.3V Johnny-Five-compatible platfo
 
 ## Wiring
 
-TBD
+![SparkFun APDS-9960 connected to Tessel 2](apds-9960.png)
+
+The APDS-9960 connection is I2C (SDA, SCL, +3.3V, GND), as well as an additional interrupt (here shown to pin `A2` on the Tessel).
+
+_Note_: The APDS-9960 is a 3.3V part. Don't try to use it with a 5V board!
 
 ## Installation
 
