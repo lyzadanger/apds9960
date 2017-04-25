@@ -1,0 +1,24 @@
+{
+  "name": "apds9960",
+  "version": "1.0.0",
+  "description": "Johnny-Five Plugin for APDS-9960 (Gesture) Sensor",
+  "main": "APDS9960.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyzadanger/apds9960.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyzadanger/apds9960/issues"
+  },
+  "homepage": "https://github.com/lyzadanger/apds9960#readme",
+  "dependencies": {
+    "johnny-five": "^0.10.10",
+    "tessel-io": "^0.10.3"
+  }
+}
